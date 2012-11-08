@@ -42,7 +42,6 @@ public interface Game {
    * @return the city at this position or null if no city here.
    */
   public City getCityAt( Position p );
-
   /** return the player that is 'in turn', that is, is able to
    * move units and manage cities.
    * @return the player that is in turn
